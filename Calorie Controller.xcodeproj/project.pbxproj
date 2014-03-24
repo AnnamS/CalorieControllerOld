@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6302AE6518E095A300FEAA16 /* PersonalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302AE6418E095A300FEAA16 /* PersonalDetailsViewController.m */; };
+		6302AE6818E095D200FEAA16 /* FoodSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302AE6718E095D200FEAA16 /* FoodSplitViewController.m */; };
+		6302AE6B18E095F400FEAA16 /* ExerciseSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302AE6A18E095F400FEAA16 /* ExerciseSplitViewController.m */; };
+		6302AE6E18E0960F00FEAA16 /* SummarySplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302AE6D18E0960F00FEAA16 /* SummarySplitViewController.m */; };
 		632075B218DA015E00C82FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632075B118DA015E00C82FAF /* Foundation.framework */; };
 		632075B418DA015E00C82FAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632075B318DA015E00C82FAF /* CoreGraphics.framework */; };
 		632075B618DA015E00C82FAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632075B518DA015E00C82FAF /* UIKit.framework */; };
@@ -15,8 +19,6 @@
 		632075C218DA015E00C82FAF /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 632075C118DA015E00C82FAF /* CalculatorAppDelegate.m */; };
 		632075C518DA015E00C82FAF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632075C318DA015E00C82FAF /* Main_iPhone.storyboard */; };
 		632075C818DA015E00C82FAF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632075C618DA015E00C82FAF /* Main_iPad.storyboard */; };
-		632075CB18DA015E00C82FAF /* CalculatorFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632075CA18DA015E00C82FAF /* CalculatorFirstViewController.m */; };
-		632075CE18DA015E00C82FAF /* CalculatorSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632075CD18DA015E00C82FAF /* CalculatorSecondViewController.m */; };
 		632075D018DA015E00C82FAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632075CF18DA015E00C82FAF /* Images.xcassets */; };
 		632075D718DA015E00C82FAF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632075D618DA015E00C82FAF /* XCTest.framework */; };
 		632075D818DA015E00C82FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632075B118DA015E00C82FAF /* Foundation.framework */; };
@@ -36,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6302AE6318E095A300FEAA16 /* PersonalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalDetailsViewController.h; sourceTree = "<group>"; };
+		6302AE6418E095A300FEAA16 /* PersonalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalDetailsViewController.m; sourceTree = "<group>"; };
+		6302AE6618E095D200FEAA16 /* FoodSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodSplitViewController.h; sourceTree = "<group>"; };
+		6302AE6718E095D200FEAA16 /* FoodSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodSplitViewController.m; sourceTree = "<group>"; };
+		6302AE6918E095F400FEAA16 /* ExerciseSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseSplitViewController.h; sourceTree = "<group>"; };
+		6302AE6A18E095F400FEAA16 /* ExerciseSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseSplitViewController.m; sourceTree = "<group>"; };
+		6302AE6C18E0960F00FEAA16 /* SummarySplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummarySplitViewController.h; sourceTree = "<group>"; };
+		6302AE6D18E0960F00FEAA16 /* SummarySplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummarySplitViewController.m; sourceTree = "<group>"; };
 		632075AE18DA015E00C82FAF /* Calorie Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calorie Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		632075B118DA015E00C82FAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		632075B318DA015E00C82FAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,10 +58,6 @@
 		632075C118DA015E00C82FAF /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		632075C418DA015E00C82FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		632075C718DA015E00C82FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		632075C918DA015E00C82FAF /* CalculatorFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorFirstViewController.h; sourceTree = "<group>"; };
-		632075CA18DA015E00C82FAF /* CalculatorFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorFirstViewController.m; sourceTree = "<group>"; };
-		632075CC18DA015E00C82FAF /* CalculatorSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorSecondViewController.h; sourceTree = "<group>"; };
-		632075CD18DA015E00C82FAF /* CalculatorSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorSecondViewController.m; sourceTree = "<group>"; };
 		632075CF18DA015E00C82FAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		632075D518DA015E00C82FAF /* Calorie ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calorie ControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		632075D618DA015E00C82FAF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -84,6 +90,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6302AE5F18E094AC00FEAA16 /* Personal Details */ = {
+			isa = PBXGroup;
+			children = (
+				6302AE6318E095A300FEAA16 /* PersonalDetailsViewController.h */,
+				6302AE6418E095A300FEAA16 /* PersonalDetailsViewController.m */,
+			);
+			name = "Personal Details";
+			sourceTree = "<group>";
+		};
+		6302AE6018E094C200FEAA16 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				6302AE6618E095D200FEAA16 /* FoodSplitViewController.h */,
+				6302AE6718E095D200FEAA16 /* FoodSplitViewController.m */,
+			);
+			name = Food;
+			sourceTree = "<group>";
+		};
+		6302AE6118E094DC00FEAA16 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				6302AE6918E095F400FEAA16 /* ExerciseSplitViewController.h */,
+				6302AE6A18E095F400FEAA16 /* ExerciseSplitViewController.m */,
+			);
+			name = Exercise;
+			sourceTree = "<group>";
+		};
+		6302AE6218E094EE00FEAA16 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				6302AE6C18E0960F00FEAA16 /* SummarySplitViewController.h */,
+				6302AE6D18E0960F00FEAA16 /* SummarySplitViewController.m */,
+			);
+			name = Summary;
+			sourceTree = "<group>";
+		};
+		6302AE6F18E0996400FEAA16 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				632075C618DA015E00C82FAF /* Main_iPad.storyboard */,
+				6302AE6218E094EE00FEAA16 /* Summary */,
+				6302AE6118E094DC00FEAA16 /* Exercise */,
+				6302AE6018E094C200FEAA16 /* Food */,
+				6302AE5F18E094AC00FEAA16 /* Personal Details */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		6302AE7018E0998B00FEAA16 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				632075C318DA015E00C82FAF /* Main_iPhone.storyboard */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		6302AE7118E099BE00FEAA16 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				632075C018DA015E00C82FAF /* CalculatorAppDelegate.h */,
+				632075C118DA015E00C82FAF /* CalculatorAppDelegate.m */,
+			);
+			name = AppDelegates;
+			sourceTree = "<group>";
+		};
 		632075A518DA015E00C82FAF = {
 			isa = PBXGroup;
 			children = (
@@ -117,14 +188,9 @@
 		632075B718DA015E00C82FAF /* Calorie Controller */ = {
 			isa = PBXGroup;
 			children = (
-				632075C018DA015E00C82FAF /* CalculatorAppDelegate.h */,
-				632075C118DA015E00C82FAF /* CalculatorAppDelegate.m */,
-				632075C318DA015E00C82FAF /* Main_iPhone.storyboard */,
-				632075C618DA015E00C82FAF /* Main_iPad.storyboard */,
-				632075C918DA015E00C82FAF /* CalculatorFirstViewController.h */,
-				632075CA18DA015E00C82FAF /* CalculatorFirstViewController.m */,
-				632075CC18DA015E00C82FAF /* CalculatorSecondViewController.h */,
-				632075CD18DA015E00C82FAF /* CalculatorSecondViewController.m */,
+				6302AE7118E099BE00FEAA16 /* AppDelegates */,
+				6302AE7018E0998B00FEAA16 /* iPhone */,
+				6302AE6F18E0996400FEAA16 /* iPad */,
 				632075CF18DA015E00C82FAF /* Images.xcassets */,
 				632075B818DA015E00C82FAF /* Supporting Files */,
 			);
@@ -259,10 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				632075CE18DA015E00C82FAF /* CalculatorSecondViewController.m in Sources */,
+				6302AE6518E095A300FEAA16 /* PersonalDetailsViewController.m in Sources */,
 				632075C218DA015E00C82FAF /* CalculatorAppDelegate.m in Sources */,
-				632075CB18DA015E00C82FAF /* CalculatorFirstViewController.m in Sources */,
+				6302AE6E18E0960F00FEAA16 /* SummarySplitViewController.m in Sources */,
 				632075BE18DA015E00C82FAF /* main.m in Sources */,
+				6302AE6818E095D200FEAA16 /* FoodSplitViewController.m in Sources */,
+				6302AE6B18E095F400FEAA16 /* ExerciseSplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +545,7 @@
 				632075E818DA015E00C82FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		632075E918DA015E00C82FAF /* Build configuration list for PBXNativeTarget "Calorie ControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +554,7 @@
 				632075EB18DA015E00C82FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
