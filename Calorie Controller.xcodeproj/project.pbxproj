@@ -25,6 +25,13 @@
 		632075D918DA015E00C82FAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632075B518DA015E00C82FAF /* UIKit.framework */; };
 		632075E118DA015E00C82FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 632075DF18DA015E00C82FAF /* InfoPlist.strings */; };
 		632075E318DA015E00C82FAF /* Calorie_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 632075E218DA015E00C82FAF /* Calorie_ControllerTests.m */; };
+		DC3CE29E18E34259004B629B /* FoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE29D18E34259004B629B /* FoodCategory.m */; };
+		DC3CE2A218E34287004B629B /* FoodCategoryMeal.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2A118E34287004B629B /* FoodCategoryMeal.m */; };
+		DC3CE2A718E3485D004B629B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2A618E3485D004B629B /* User.m */; };
+		DC3CE2AA18E34877004B629B /* ExerciseCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2A918E34877004B629B /* ExerciseCategory.m */; };
+		DC3CE2AD18E34886004B629B /* ExerciseCategoryWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2AC18E34886004B629B /* ExerciseCategoryWorkout.m */; };
+		DC3CE2B018E3489C004B629B /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2AF18E3489C004B629B /* Meal.m */; };
+		DC3CE2B318E348A8004B629B /* Workout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2B218E348A8004B629B /* Workout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +71,20 @@
 		632075DE18DA015E00C82FAF /* Calorie ControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calorie ControllerTests-Info.plist"; sourceTree = "<group>"; };
 		632075E018DA015E00C82FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		632075E218DA015E00C82FAF /* Calorie_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calorie_ControllerTests.m; sourceTree = "<group>"; };
+		DC3CE29C18E34259004B629B /* FoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategory.h; sourceTree = "<group>"; };
+		DC3CE29D18E34259004B629B /* FoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategory.m; sourceTree = "<group>"; };
+		DC3CE2A018E34287004B629B /* FoodCategoryMeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategoryMeal.h; sourceTree = "<group>"; };
+		DC3CE2A118E34287004B629B /* FoodCategoryMeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategoryMeal.m; sourceTree = "<group>"; };
+		DC3CE2A518E3485D004B629B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		DC3CE2A618E3485D004B629B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		DC3CE2A818E34877004B629B /* ExerciseCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCategory.h; sourceTree = "<group>"; };
+		DC3CE2A918E34877004B629B /* ExerciseCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCategory.m; sourceTree = "<group>"; };
+		DC3CE2AB18E34886004B629B /* ExerciseCategoryWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCategoryWorkout.h; sourceTree = "<group>"; };
+		DC3CE2AC18E34886004B629B /* ExerciseCategoryWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCategoryWorkout.m; sourceTree = "<group>"; };
+		DC3CE2AE18E3489C004B629B /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		DC3CE2AF18E3489C004B629B /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		DC3CE2B118E348A8004B629B /* Workout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workout.h; sourceTree = "<group>"; };
+		DC3CE2B218E348A8004B629B /* Workout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +209,7 @@
 		632075B718DA015E00C82FAF /* Calorie Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DC3CE29B18E33945004B629B /* Models */,
 				6302AE7118E099BE00FEAA16 /* AppDelegates */,
 				6302AE7018E0998B00FEAA16 /* iPhone */,
 				6302AE6F18E0996400FEAA16 /* iPad */,
@@ -224,6 +246,51 @@
 				632075DF18DA015E00C82FAF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC3CE29B18E33945004B629B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC3CE2A418E3482A004B629B /* Exercise Category */,
+				DC3CE2A318E34821004B629B /* User */,
+				DC3CE29F18E34267004B629B /* Food Category */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DC3CE29F18E34267004B629B /* Food Category */ = {
+			isa = PBXGroup;
+			children = (
+				DC3CE29C18E34259004B629B /* FoodCategory.h */,
+				DC3CE29D18E34259004B629B /* FoodCategory.m */,
+				DC3CE2A018E34287004B629B /* FoodCategoryMeal.h */,
+				DC3CE2A118E34287004B629B /* FoodCategoryMeal.m */,
+			);
+			name = "Food Category";
+			sourceTree = "<group>";
+		};
+		DC3CE2A318E34821004B629B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				DC3CE2A518E3485D004B629B /* User.h */,
+				DC3CE2A618E3485D004B629B /* User.m */,
+				DC3CE2AE18E3489C004B629B /* Meal.h */,
+				DC3CE2AF18E3489C004B629B /* Meal.m */,
+				DC3CE2B118E348A8004B629B /* Workout.h */,
+				DC3CE2B218E348A8004B629B /* Workout.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		DC3CE2A418E3482A004B629B /* Exercise Category */ = {
+			isa = PBXGroup;
+			children = (
+				DC3CE2A818E34877004B629B /* ExerciseCategory.h */,
+				DC3CE2A918E34877004B629B /* ExerciseCategory.m */,
+				DC3CE2AB18E34886004B629B /* ExerciseCategoryWorkout.h */,
+				DC3CE2AC18E34886004B629B /* ExerciseCategoryWorkout.m */,
+			);
+			name = "Exercise Category";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,9 +392,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3CE2B318E348A8004B629B /* Workout.m in Sources */,
 				6302AE6518E095A300FEAA16 /* PersonalDetailsViewController.m in Sources */,
+				DC3CE2AA18E34877004B629B /* ExerciseCategory.m in Sources */,
 				632075C218DA015E00C82FAF /* CalculatorAppDelegate.m in Sources */,
+				DC3CE2A718E3485D004B629B /* User.m in Sources */,
+				DC3CE2B018E3489C004B629B /* Meal.m in Sources */,
+				DC3CE2A218E34287004B629B /* FoodCategoryMeal.m in Sources */,
+				DC3CE2AD18E34886004B629B /* ExerciseCategoryWorkout.m in Sources */,
 				6302AE6E18E0960F00FEAA16 /* SummarySplitViewController.m in Sources */,
+				DC3CE29E18E34259004B629B /* FoodCategory.m in Sources */,
 				632075BE18DA015E00C82FAF /* main.m in Sources */,
 				6302AE6818E095D200FEAA16 /* FoodSplitViewController.m in Sources */,
 				6302AE6B18E095F400FEAA16 /* ExerciseSplitViewController.m in Sources */,

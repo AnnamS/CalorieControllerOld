@@ -26,7 +26,135 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self setUpFoodCategories];
+    [self setUpExerciseCategories];
     // Do any additional setup after loading the view.
+}
+
+-(void)setUpFoodCategories
+{
+    self.foodCategories = [[FoodCategory alloc] init];
+    
+    //   ************* Breakfast *************
+    FoodCategoryMeal *mealOne = [[FoodCategoryMeal alloc] init];
+    mealOne.name = @"Omelette";
+    mealOne.calories = @"50";
+    [self.foodCategories addMeal:mealOne toCategory:@"Breakfast"];
+
+    FoodCategoryMeal *mealTwo = [[FoodCategoryMeal alloc] init];
+    mealTwo.name = @"2 Slices Toast";
+    mealTwo.calories = @"20";
+    [self.foodCategories addMeal:mealTwo toCategory:@"Breakfast"];
+    
+    FoodCategoryMeal *mealThree = [[FoodCategoryMeal alloc] init];
+    mealThree.name = @"Coco Pops";
+    mealThree.calories = @"30";
+    [self.foodCategories addMeal:mealThree toCategory:@"Breakfast"];
+    
+    //   ************* Lunch *************
+    FoodCategoryMeal *mealFour = [[FoodCategoryMeal alloc] init];
+    mealFour.name = @"Ceaser Salad";
+    mealFour.calories = @"75";
+    [self.foodCategories addMeal:mealFour toCategory:@"Lunch"];
+    
+    FoodCategoryMeal *mealFive = [[FoodCategoryMeal alloc] init];
+    mealFive.name = @"Turkey Sandwich";
+    mealFive.calories = @"120";
+    [self.foodCategories addMeal:mealFive toCategory:@"Lunch"];
+    
+    FoodCategoryMeal *mealSix = [[FoodCategoryMeal alloc] init];
+    mealSix.name = @"Lamb Wrap";
+    mealSix.calories = @"150";
+    [self.foodCategories addMeal:mealSix toCategory:@"Lunch"];
+    
+    //   ************* Dinner *************
+    
+    FoodCategoryMeal *mealSeven = [[FoodCategoryMeal alloc] init];
+    mealSeven.name = @"Shepards Pie";
+    mealSeven.calories = @"300";
+    [self.foodCategories addMeal:mealSeven toCategory:@"Dinner"];
+    
+    FoodCategoryMeal *mealEight = [[FoodCategoryMeal alloc] init];
+    mealEight.name = @"Fish and Chips";
+    mealEight.calories = @"500";
+    [self.foodCategories addMeal:mealEight toCategory:@"Dinner"];
+    
+    FoodCategoryMeal *mealNine = [[FoodCategoryMeal alloc] init];
+    mealNine.name = @"Lasagne";
+    mealNine.calories = @"200";
+    [self.foodCategories addMeal:mealNine toCategory:@"Dinner"];
+    
+    
+      //   ************* Drinks *************
+    
+    FoodCategoryMeal *mealTen = [[FoodCategoryMeal alloc] init];
+    mealTen.name = @"Coke";
+    mealTen.calories = @"75";
+    [self.foodCategories addMeal:mealTen toCategory:@"Drinks"];
+    
+    FoodCategoryMeal *mealEleven = [[FoodCategoryMeal alloc] init];
+    mealEleven.name = @"Orange Juice";
+    mealEleven.calories = @"25";
+    [self.foodCategories addMeal:mealEleven toCategory:@"Drinks"];
+    
+    FoodCategoryMeal *mealTwelve = [[FoodCategoryMeal alloc] init];
+    mealTwelve.name = @"Apple Juice";
+    mealTwelve.calories = @"25";
+    [self.foodCategories addMeal:mealTwelve toCategory:@"Drinks"];
+    
+    //   ************* Snacks *************
+    
+    FoodCategoryMeal *mealThirteen = [[FoodCategoryMeal alloc] init];
+    mealThirteen.name = @"Crisp: Salt and Vinegar";
+    mealThirteen.calories = @"100";
+    [self.foodCategories addMeal:mealThirteen toCategory:@"Snacks"];
+    
+    FoodCategoryMeal *mealFourteen = [[FoodCategoryMeal alloc] init];
+    mealFourteen.name = @"Apple";
+    mealFourteen.calories = @"10";
+    [self.foodCategories addMeal:mealFourteen toCategory:@"Snacks"];
+
+    FoodCategoryMeal *mealFifteen = [[FoodCategoryMeal alloc] init];
+    mealFifteen.name = @"Milk Chocolate";
+    mealFifteen.calories = @"10";
+    [self.foodCategories addMeal:mealFifteen toCategory:@"Snacks"];
+
+    
+    //   ************* Show Food Categories *************
+    
+    [self.foodCategories returnFoodCategories];
+}
+
+-(void)setUpExerciseCategories
+{
+    self.exerciseCategories = [[ExerciseCategory alloc] init];
+    
+    //   ************* Walking *************
+    ExerciseCategoryWorkout *workoutOne = [[ExerciseCategoryWorkout alloc] init];
+    workoutOne.units = @"Distance";
+    workoutOne.calories = @"100";
+    [self.exerciseCategories addExercise:workoutOne withName:@"Walking"];
+    
+    //   ************* Running *************
+    ExerciseCategoryWorkout *workoutTwo = [[ExerciseCategoryWorkout alloc] init];
+    workoutTwo.units = @"Distance";
+    workoutTwo.calories = @"50";
+    [self.exerciseCategories addExercise:workoutTwo withName:@"Running"];
+    
+    //   ************* Cycling *************
+    ExerciseCategoryWorkout *workoutThree = [[ExerciseCategoryWorkout alloc] init];
+    workoutThree.units = @"Distance";
+    workoutThree.calories = @"75";
+    [self.exerciseCategories addExercise:workoutThree withName:@"Cycling"];
+
+    //   ************* Cycling *************
+    ExerciseCategoryWorkout *workoutFour = [[ExerciseCategoryWorkout alloc] init];
+    workoutFour.units = @"Distance";
+    workoutFour.calories = @"400";
+    [self.exerciseCategories addExercise:workoutFour withName:@"Swimming"];
+    
+    //   ************* Show Exercise Categories *************
+    [self.exerciseCategories returnExerciseCategories];
 }
 
 - (void)didReceiveMemoryWarning
