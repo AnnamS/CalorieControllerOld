@@ -1,5 +1,5 @@
 //
-//  FoodCategoryMeal.h
+//  FoodCategory.h
 //  Calorie Controller
 //
 //  Created by Hasnat Hoque on 26/03/2014.
@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface FoodCategoryMeal : NSObject
+@interface Food : NSObject
 
+@property int id;
 @property (nonatomic,strong) NSString *name;
-@property (nonatomic,strong) NSString *calories;
-
+@property int calories;
+@property (nonatomic,strong) NSString *category;
 @end
