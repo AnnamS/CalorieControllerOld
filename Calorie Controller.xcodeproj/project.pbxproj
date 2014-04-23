@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		630231A2190569730071BD02 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630231A1190569730071BD02 /* CoreData.framework */; };
-		630231A7190569C00071BD02 /* CalorieController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 630231A5190569C00071BD02 /* CalorieController.xcdatamodeld */; };
 		6302AE6518E095A300FEAA16 /* PersonalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302AE6418E095A300FEAA16 /* PersonalDetailsViewController.m */; };
 		6302AE6818E095D200FEAA16 /* FoodSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302AE6718E095D200FEAA16 /* FoodSplitViewController.m */; };
 		6302AE6B18E095F400FEAA16 /* ExerciseSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302AE6A18E095F400FEAA16 /* ExerciseSplitViewController.m */; };
@@ -27,10 +25,13 @@
 		632075D918DA015E00C82FAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632075B518DA015E00C82FAF /* UIKit.framework */; };
 		632075E118DA015E00C82FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 632075DF18DA015E00C82FAF /* InfoPlist.strings */; };
 		632075E318DA015E00C82FAF /* Calorie_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 632075E218DA015E00C82FAF /* Calorie_ControllerTests.m */; };
-		DC3CE29E18E34259004B629B /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE29D18E34259004B629B /* Food.m */; };
-		DC3CE2A218E34287004B629B /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2A118E34287004B629B /* Meal.m */; };
+		DC3CE29E18E34259004B629B /* FoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE29D18E34259004B629B /* FoodCategory.m */; };
+		DC3CE2A218E34287004B629B /* FoodCategoryMeal.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2A118E34287004B629B /* FoodCategoryMeal.m */; };
+		DC3CE2A718E3485D004B629B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2A618E3485D004B629B /* User.m */; };
 		DC3CE2AA18E34877004B629B /* ExerciseCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2A918E34877004B629B /* ExerciseCategory.m */; };
 		DC3CE2AD18E34886004B629B /* ExerciseCategoryWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2AC18E34886004B629B /* ExerciseCategoryWorkout.m */; };
+		DC3CE2B018E3489C004B629B /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2AF18E3489C004B629B /* Meal.m */; };
+		DC3CE2B318E348A8004B629B /* Workout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2B218E348A8004B629B /* Workout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		630231A1190569730071BD02 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		630231A6190569C00071BD02 /* CalorieController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalorieController.xcdatamodel; sourceTree = "<group>"; };
 		6302AE6318E095A300FEAA16 /* PersonalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalDetailsViewController.h; sourceTree = "<group>"; };
 		6302AE6418E095A300FEAA16 /* PersonalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalDetailsViewController.m; sourceTree = "<group>"; };
 		6302AE6618E095D200FEAA16 /* FoodSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodSplitViewController.h; sourceTree = "<group>"; };
@@ -72,14 +71,20 @@
 		632075DE18DA015E00C82FAF /* Calorie ControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calorie ControllerTests-Info.plist"; sourceTree = "<group>"; };
 		632075E018DA015E00C82FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		632075E218DA015E00C82FAF /* Calorie_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calorie_ControllerTests.m; sourceTree = "<group>"; };
-		DC3CE29C18E34259004B629B /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
-		DC3CE29D18E34259004B629B /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
-		DC3CE2A018E34287004B629B /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
-		DC3CE2A118E34287004B629B /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		DC3CE29C18E34259004B629B /* FoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategory.h; sourceTree = "<group>"; };
+		DC3CE29D18E34259004B629B /* FoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategory.m; sourceTree = "<group>"; };
+		DC3CE2A018E34287004B629B /* FoodCategoryMeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategoryMeal.h; sourceTree = "<group>"; };
+		DC3CE2A118E34287004B629B /* FoodCategoryMeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategoryMeal.m; sourceTree = "<group>"; };
+		DC3CE2A518E3485D004B629B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		DC3CE2A618E3485D004B629B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		DC3CE2A818E34877004B629B /* ExerciseCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCategory.h; sourceTree = "<group>"; };
 		DC3CE2A918E34877004B629B /* ExerciseCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCategory.m; sourceTree = "<group>"; };
 		DC3CE2AB18E34886004B629B /* ExerciseCategoryWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCategoryWorkout.h; sourceTree = "<group>"; };
 		DC3CE2AC18E34886004B629B /* ExerciseCategoryWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCategoryWorkout.m; sourceTree = "<group>"; };
+		DC3CE2AE18E3489C004B629B /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		DC3CE2AF18E3489C004B629B /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		DC3CE2B118E348A8004B629B /* Workout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workout.h; sourceTree = "<group>"; };
+		DC3CE2B218E348A8004B629B /* Workout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				630231A2190569730071BD02 /* CoreData.framework in Frameworks */,
 				632075B418DA015E00C82FAF /* CoreGraphics.framework in Frameworks */,
 				632075B618DA015E00C82FAF /* UIKit.framework in Frameworks */,
 				632075B218DA015E00C82FAF /* Foundation.framework in Frameworks */,
@@ -107,14 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		630231A41905699F0071BD02 /* Core Data */ = {
-			isa = PBXGroup;
-			children = (
-				630231A5190569C00071BD02 /* CalorieController.xcdatamodeld */,
-			);
-			name = "Core Data";
-			sourceTree = "<group>";
-		};
 		6302AE5F18E094AC00FEAA16 /* Personal Details */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,7 +198,6 @@
 		632075B018DA015E00C82FAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				630231A1190569730071BD02 /* CoreData.framework */,
 				632075B118DA015E00C82FAF /* Foundation.framework */,
 				632075B318DA015E00C82FAF /* CoreGraphics.framework */,
 				632075B518DA015E00C82FAF /* UIKit.framework */,
@@ -214,7 +209,6 @@
 		632075B718DA015E00C82FAF /* Calorie Controller */ = {
 			isa = PBXGroup;
 			children = (
-				630231A41905699F0071BD02 /* Core Data */,
 				DC3CE29B18E33945004B629B /* Models */,
 				6302AE7118E099BE00FEAA16 /* AppDelegates */,
 				6302AE7018E0998B00FEAA16 /* iPhone */,
@@ -267,10 +261,10 @@
 		DC3CE29F18E34267004B629B /* Food Category */ = {
 			isa = PBXGroup;
 			children = (
-				DC3CE29C18E34259004B629B /* Food.h */,
-				DC3CE29D18E34259004B629B /* Food.m */,
-				DC3CE2A018E34287004B629B /* Meal.h */,
-				DC3CE2A118E34287004B629B /* Meal.m */,
+				DC3CE29C18E34259004B629B /* FoodCategory.h */,
+				DC3CE29D18E34259004B629B /* FoodCategory.m */,
+				DC3CE2A018E34287004B629B /* FoodCategoryMeal.h */,
+				DC3CE2A118E34287004B629B /* FoodCategoryMeal.m */,
 			);
 			name = "Food Category";
 			sourceTree = "<group>";
@@ -278,6 +272,12 @@
 		DC3CE2A318E34821004B629B /* User */ = {
 			isa = PBXGroup;
 			children = (
+				DC3CE2A518E3485D004B629B /* User.h */,
+				DC3CE2A618E3485D004B629B /* User.m */,
+				DC3CE2AE18E3489C004B629B /* Meal.h */,
+				DC3CE2AF18E3489C004B629B /* Meal.m */,
+				DC3CE2B118E348A8004B629B /* Workout.h */,
+				DC3CE2B218E348A8004B629B /* Workout.m */,
 			);
 			name = User;
 			sourceTree = "<group>";
@@ -392,14 +392,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3CE2B318E348A8004B629B /* Workout.m in Sources */,
 				6302AE6518E095A300FEAA16 /* PersonalDetailsViewController.m in Sources */,
 				DC3CE2AA18E34877004B629B /* ExerciseCategory.m in Sources */,
-				630231A7190569C00071BD02 /* CalorieController.xcdatamodeld in Sources */,
 				632075C218DA015E00C82FAF /* CalculatorAppDelegate.m in Sources */,
-				DC3CE2A218E34287004B629B /* Meal.m in Sources */,
+				DC3CE2A718E3485D004B629B /* User.m in Sources */,
+				DC3CE2B018E3489C004B629B /* Meal.m in Sources */,
+				DC3CE2A218E34287004B629B /* FoodCategoryMeal.m in Sources */,
 				DC3CE2AD18E34886004B629B /* ExerciseCategoryWorkout.m in Sources */,
 				6302AE6E18E0960F00FEAA16 /* SummarySplitViewController.m in Sources */,
-				DC3CE29E18E34259004B629B /* Food.m in Sources */,
+				DC3CE29E18E34259004B629B /* FoodCategory.m in Sources */,
 				632075BE18DA015E00C82FAF /* main.m in Sources */,
 				6302AE6818E095D200FEAA16 /* FoodSplitViewController.m in Sources */,
 				6302AE6B18E095F400FEAA16 /* ExerciseSplitViewController.m in Sources */,
@@ -629,19 +631,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		630231A5190569C00071BD02 /* CalorieController.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				630231A6190569C00071BD02 /* CalorieController.xcdatamodel */,
-			);
-			currentVersion = 630231A6190569C00071BD02 /* CalorieController.xcdatamodel */;
-			path = CalorieController.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 632075A618DA015E00C82FAF /* Project object */;
 }

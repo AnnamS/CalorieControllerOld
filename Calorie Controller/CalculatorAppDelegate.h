@@ -12,10 +12,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (nonatomic,strong) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
--(void)saveContext;
--(NSURL *)applicationDocumentsDirectory;
 @end
